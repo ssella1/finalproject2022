@@ -7,13 +7,15 @@ body {
     padding: 0;
 }
 header {
-    background-color: #e8eef0;
+    background-color: white;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+    /* line-height: 0; */
 }
 nav {
     text-align:center;
     text-decoration: none;
+    background-color: #e8eef0;
     /* padding: 25px 0; */
     /* border: 1px solid rgba(255, 205, 234); */
 }
@@ -233,6 +235,7 @@ div.intro {
     }
     nav li {
         font-size: 100%;
+        margin-right: 10px;
     }
     footer p {
         text-align: left;
